@@ -2343,6 +2343,16 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
+
+		.imagen-redes-sociales{
+			width: 68%;
+			height: 400px;
+			object-fit: cover;
+			margin: auto;
+			display: block;
+			position: relative;
+		}
+
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
