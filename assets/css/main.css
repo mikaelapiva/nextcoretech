@@ -2346,7 +2346,7 @@ input, select, textarea {
 
 		.imagen-redes-sociales{
 			width: 68%;
-			height: 400px;
+			height: fit-content;
 			object-fit: cover;
 			margin: auto;
 			display: block;
@@ -2385,12 +2385,15 @@ input, select, textarea {
 /* Table */
 
 	.table-wrapper {
+		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+		color: white;
+		margin-bottom: 20px;
 	}
 
 	table {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		width: 100%;
 	}
 
